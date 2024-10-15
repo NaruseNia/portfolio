@@ -1,0 +1,16 @@
+.links a {
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #ff3672;
+  }
+}
+
+.chr {
+  transition: color 0.3s ease !important;
+  cursor: crosshair;
+
+  &:hover {
+    color: #ff3672 !important;
+  }
+}
