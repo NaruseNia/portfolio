@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Agrandir-Grand";
+  src: url("fonts/AgrandirGrandMedium.woff2") format("woff2");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Agrandir-Grand";
+  src: url("fonts/PPAgrandirGrandLight.woff2") format("woff2");
+  font-weight: normal;
+}
+
+* {
+  font-family: "Agrandir-Grand", sans-serif;
+  color: #54263a;
+}

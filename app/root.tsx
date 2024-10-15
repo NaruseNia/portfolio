@@ -8,6 +8,7 @@ import {
 import type { LinksFunction } from "@remix-run/cloudflare";
 
 import "./tailwind.css";
+import "./styles/prelude.css";
 
 export const links: LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
