@@ -5,8 +5,9 @@ export const Header = () => {
     <m.header
       initial={{ y: -40 }}
       animate={{ y: 0 }}
+      exit={{ y: -40 }}
       transition={{ duration: 1, ease: [0.0, 0.8, 0.2, 1.0] }}
-      className="fixed w-screen h-16 flex items-center px-12"
+      className="fixed bg-white w-screen h-16 flex items-center px-12"
     >
       <a href="/">
         <svg

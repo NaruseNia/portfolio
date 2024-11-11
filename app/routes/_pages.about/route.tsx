@@ -43,7 +43,7 @@ export default function About() {
   return (
     <div
       ref={scope}
-      className={`bg-white flex flex-${
+      className={`bg-white grid-bg flex flex-${
         isSmall ? "col" : "row"
       } gap-20 min-h-screen items-center justify-center overflow-x-hidden p-12`}
     >

@@ -2,7 +2,6 @@ import type { MetaFunction } from "@remix-run/cloudflare";
 import { stagger, useAnimate } from "framer-motion";
 import { useEffect, useState } from "react";
 import "./styles.css";
-import { Link } from "@remix-run/react";
 
 export const meta: MetaFunction = () => {
   return [
@@ -52,14 +51,14 @@ export default function Index() {
   return (
     <div
       ref={scope}
-      className="bg-white flex h-screen items-center justify-center overflow-x-hidden px-[10%]"
+      className="grid-bg bg-white flex h-screen items-center justify-center overflow-x-hidden px-[10%]"
     >
       <div className="w-1/2">
         <h1 className="text-9xl">
-          <p>{chars("Naruse")}</p>
-          <p>{chars("Nia")}</p>
+          <p className="bg-white w-min">{chars("Naruse")}</p>
+          <p className="bg-white w-min">{chars("Nia")}</p>
         </h1>
-        <div className="font-bold skills">
+        <div className="bg-white w-fit font-bold skills">
           <p>Video Creator</p>
           <p>Graphic Designer</p>
           <p>Composer</p>
