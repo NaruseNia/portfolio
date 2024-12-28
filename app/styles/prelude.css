@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Agrandir-Grand";
+  src: url("fonts/AgrandirGrandMedium.woff2") format("woff2");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Agrandir-Grand";
+  src: url("fonts/PPAgrandirGrandLight.woff2") format("woff2");
+  font-weight: normal;
+}
+
+* {
+  font-family: "Agrandir-Grand", "Sawarabi Gothic", sans-serif;
+  color: #ffebf4;
+}
+
+.grid-bg {
+  background-size: 14px 14px;
+  background-image: linear-gradient(to right, #f6f6f6 1px, transparent 1px),
+    linear-gradient(to bottom, #f6f6f6 1px, transparent 1px);
+}
+
